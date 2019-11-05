@@ -10,4 +10,4 @@ console.log('filename join', pathJoin)
 
 const isExist = existsSync(pathJoin)
 
-console.log('isEcist', isExist);
+console.log('isExist', isExist);
