@@ -1,4 +1,4 @@
-name: why no run???
+name: fule
 
 on: [push]
 
@@ -22,5 +22,3 @@ jobs:
         npm run build
       env:
         CI: true
-      with:
-        filename: mds/first.md
