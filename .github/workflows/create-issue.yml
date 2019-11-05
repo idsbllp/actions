@@ -1,6 +1,6 @@
 # .github/workflows/issue-on-push.yml
 on: push
-name: Create an issue, fuck path
+name: Create an issue, fuck path, run
 jobs:
   stuff:
     
