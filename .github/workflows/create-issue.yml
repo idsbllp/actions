@@ -10,3 +10,5 @@ jobs:
       - uses: JasonEtco/create-an-issue@master
         env: 
           GITHUB_TOKEN: ${{ secrets.token }}
+        with:
+          filename: mds/first.md
