@@ -1,6 +1,5 @@
-import { existsSync } from "fs";
-
-const path = 'path';
+var { existsSync } =  require("fs");
+var path =  require("path");
 
 console.log('GITHUB_WORKSPACE: ', process.env.GITHUB_WORKSPACE)
 
