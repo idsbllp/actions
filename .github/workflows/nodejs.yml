@@ -1,4 +1,4 @@
-name: fule add llp
+name: fule add llp & install
 
 on: [push]
 
