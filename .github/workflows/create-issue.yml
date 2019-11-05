@@ -1,6 +1,6 @@
 # .github/workflows/issue-on-push.yml
 on: push
-name: Create an issue
+name: Create an issue, mmp
 jobs:
   stuff:
     
