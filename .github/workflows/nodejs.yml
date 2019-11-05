@@ -1,4 +1,4 @@
-name: fule add llp & token
+name: fule add llp & body
 
 on: [push]
 

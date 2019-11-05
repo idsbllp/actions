@@ -1,14 +1,7 @@
-## title
-
-> blockquote
-
-```
-var code = 'string'
-```
-
+---
+title: Issue title
+body: ## title \n > blockquote \n ```\nvar code = 'string'\n```
+labels: react
 ---
 
-[]  checkbox
-
-- list
-- list 
+Someone just pushed, oh no! Here's who did it: {{ payload.sender.login }}
