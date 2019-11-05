@@ -1,6 +1,6 @@
 # .github/workflows/issue-on-push.yml
 on: push
-name: Create an issue, mmp
+name: Create an issue, fuck path
 jobs:
   stuff:
     
@@ -11,4 +11,4 @@ jobs:
         env: 
           GITHUB_TOKEN: ${{ secrets.token }}
         with:
-          filename: mds/first.md
+          filename: ../mds/first.md
