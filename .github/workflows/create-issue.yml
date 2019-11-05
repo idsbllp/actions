@@ -1,0 +1,12 @@
+# .github/workflows/issue-on-push.yml
+on: push
+name: Create an issue on push
+jobs:
+  stuff:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: JasonEtco/create-an-issue@master
+        env: 
+          GITHUB_TOKEN: ${{ secrets.token }}
