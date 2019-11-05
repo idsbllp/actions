@@ -11,6 +11,7 @@ function listToArray (list) {
 
 Toolkit.run(async tools => {
   const template = core.getInput('filename') || '.github/ISSUE_TEMPLATE.md'
+  console.log('logllp template', template);
   const env = nunjucks.configure({ autoescape: false })
   env.addFilter('date', dateFilter)
 
